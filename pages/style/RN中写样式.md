@@ -8,7 +8,7 @@
   - 注意: 不同的组件支持的 style 样式属性不同(如 `<View>` style 不支持 fontSize...)
 
 - 只有 `<Text>` 组件会继承样式
-- 没有单位尺寸: px/rem...
-  - 支持百分号 %
+- 没有尺寸单位: px/rem...
+  - 但支持百分号 %
 - Flexbox 与 CSS Flexbox 略有不同
   - 默认 flexDirection:"column"
