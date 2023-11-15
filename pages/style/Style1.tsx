@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
   },
 });
 
-// RN 如何绑定样式
+// RN 书写样式示例:
 const Style1 = () => {
   return (
     <>
@@ -16,8 +16,7 @@ const Style1 = () => {
         <Text>1</Text>
       </View>
 
-      {/* 支持数组 */}
-      {/* 注意: 后面的同名属性会覆盖前面的 */}
+      {/* 支持数组: 注意后面同名属性会覆盖前面的 */}
       <View style={[{backgroundColor: 'red'}, {backgroundColor: 'blue'}]}>
         <Text>2</Text>
       </View>
